@@ -1,5 +1,5 @@
 //: net/mindview/util/Pair.java
-package net.mindview.util;
+package ThinkingInJava4th源码code.TIJ4code.net.mindview.util;
 
 public class Pair<K,V> {
   public final K key;

@@ -3,7 +3,9 @@ package ThinkingInJava4th源码code.TIJ4code.typeinfo;//: typeinfo/PetCount.java
 import ThinkingInJava4th源码code.TIJ4code.typeinfo.pets.*;
 
 import java.util.*;
-import static net.mindview.util.Print.*;
+
+import static ThinkingInJava4th源码code.TIJ4code.net.mindview.util.Print.print;
+import static ThinkingInJava4th源码code.TIJ4code.net.mindview.util.Print.printnb;
 
 public class PetCount {
   static class PetCounter extends HashMap<String,Integer> {

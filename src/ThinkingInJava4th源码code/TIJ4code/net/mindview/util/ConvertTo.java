@@ -1,5 +1,5 @@
 //: net/mindview/util/ConvertTo.java
-package net.mindview.util;
+package ThinkingInJava4th源码code.TIJ4code.net.mindview.util;
 
 public class ConvertTo {
   public static boolean[] primitive(Boolean[] in) {

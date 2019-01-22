@@ -1,7 +1,8 @@
-//: holding/PrintingContainers.java
+package ThinkingInJava4th源码code.TIJ4code.holding;//: holding/PrintingContainers.java
 // Containers print themselves automatically.
 import java.util.*;
-import static net.mindview.util.Print.*;
+
+import static ThinkingInJava4th源码code.TIJ4code.net.mindview.util.Print.print;
 
 public class PrintingContainers {
   static Collection fill(Collection<String> collection) {

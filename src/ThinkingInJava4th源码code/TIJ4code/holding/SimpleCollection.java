@@ -1,4 +1,4 @@
-//: holding/SimpleCollection.java
+package ThinkingInJava4th源码code.TIJ4code.holding;//: holding/SimpleCollection.java
 import java.util.*;
 
 public class SimpleCollection {

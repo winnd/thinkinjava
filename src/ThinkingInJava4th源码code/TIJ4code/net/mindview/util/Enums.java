@@ -1,5 +1,5 @@
 //: net/mindview/util/Enums.java
-package net.mindview.util;
+package ThinkingInJava4th源码code.TIJ4code.net.mindview.util;
 import java.util.*;
 
 public class Enums {

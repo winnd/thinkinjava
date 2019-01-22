@@ -1,13 +1,13 @@
 package ThinkingInJava4th源码code.TIJ4code.typeinfo;//: typeinfo/PetCount4.java
 import ThinkingInJava4th源码code.TIJ4code.net.mindview.util.TypeCounter;
 import ThinkingInJava4th源码code.TIJ4code.typeinfo.pets.*;
-import ThinkingInJava4th源码code.TIJ4code.net.mindview.util.*;
-import static net.mindview.util.Print.*;
+
+import static ThinkingInJava4th源码code.TIJ4code.net.mindview.util.Print.*;
 
 public class PetCount4 {
   public static void main(String[] args) {
     TypeCounter counter = new TypeCounter(Pet.class);
-    for(Pet pet : typeinfo.pets.Pets.createArray(20)) {
+    for(Pet pet : Pets.createArray(20)) {
       printnb(pet.getClass().getSimpleName() + " ");
       counter.count(pet);
     }

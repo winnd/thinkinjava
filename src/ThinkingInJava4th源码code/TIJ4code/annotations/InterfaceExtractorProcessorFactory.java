@@ -1,8 +1,6 @@
 //: annotations/InterfaceExtractorProcessorFactory.java
 // APT-based annotation processing.
 package ThinkingInJava4th源码code.TIJ4code.annotations;
-import com.sun.mirror.apt.*;
-import com.sun.mirror.declaration.*;
 import java.util.*;
 
 public class InterfaceExtractorProcessorFactory

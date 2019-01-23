@@ -1,12 +1,13 @@
-//: annotations/HashSetTest.java
-package annotations;
+package ThinkingInJava4th源码code.TIJ4code.annotations;//: annotations/HashSetTest.java
 import java.util.*;
-import net.mindview.atunit.*;
-import net.mindview.util.*;
+
+import ThinkingInJava4th源码code.TIJ4code.net.mindview.atunit.Test;
+import ThinkingInJava4th源码code.TIJ4code.net.mindview.util.OSExecute;
 
 public class HashSetTest {
   HashSet<String> testObject = new HashSet<String>();
-  @Test void initialization() {
+  @Test
+  void initialization() {
     assert testObject.isEmpty();
   }
   @Test void _contains() {

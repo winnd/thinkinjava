@@ -4,6 +4,8 @@ import ThinkingInJava4th源码code.TIJ4code.net.mindview.util.Countries;
 
 import java.util.*;
 
+import static ThinkingInJava4th源码code.TIJ4code.net.mindview.util.Print.*;
+
 public class Lists {
   private static boolean b;
   private static String s;

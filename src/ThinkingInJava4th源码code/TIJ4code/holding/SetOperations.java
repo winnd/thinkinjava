@@ -1,6 +1,7 @@
-//: holding/SetOperations.java
+package ThinkingInJava4th源码code.TIJ4code.holding;//: holding/SetOperations.java
 import java.util.*;
-import static net.mindview.util.Print.*;
+
+import static ThinkingInJava4th源码code.TIJ4code.net.mindview.util.Print.print;
 
 public class SetOperations {
   public static void main(String[] args) {

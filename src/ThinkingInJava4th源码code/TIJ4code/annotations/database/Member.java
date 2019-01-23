@@ -1,5 +1,4 @@
-//: annotations/database/Member.java
-package annotations.database;
+package ThinkingInJava4th源码code.TIJ4code.annotations.database;//: annotations/database/Member.java
 
 @DBTable(name = "MEMBER")
 public class Member {

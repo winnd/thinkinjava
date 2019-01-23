@@ -1,9 +1,10 @@
 //: annotations/AtUnitExample2.java
 // Assertions and exceptions can be used in @Tests.
-package annotations;
+package ThinkingInJava4th源码code.TIJ4code.annotations;
+import ThinkingInJava4th源码code.TIJ4code.net.mindview.atunit.Test;
+import ThinkingInJava4th源码code.TIJ4code.net.mindview.util.OSExecute;
+
 import java.io.*;
-import net.mindview.atunit.*;
-import net.mindview.util.*;
 
 public class AtUnitExample2 {
   public String methodOne() {
@@ -13,7 +14,8 @@ public class AtUnitExample2 {
     System.out.println("This is methodTwo");
     return 2;
   }
-  @Test void assertExample() {
+  @Test
+  void assertExample() {
     assert methodOne().equals("This is methodOne");
   }
   @Test void assertFailureExample() {

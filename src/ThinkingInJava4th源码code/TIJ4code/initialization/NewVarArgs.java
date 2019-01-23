@@ -1,4 +1,4 @@
-//: initialization/NewVarArgs.java
+package ThinkingInJava4th源码code.TIJ4code.initialization;//: initialization/NewVarArgs.java
 // Using array syntax to create variable argument lists.
 
 public class NewVarArgs {

@@ -6,3 +6,13 @@ java编程思想
 
 
 
+LinkedList  ①操作快,多 查找慢 ② 可以作为'栈'来用 ③ 支持队列的行为
+LinkedList 操作 LinkedListFeatures.java
+            栈   
+                list.addFirst() list.getFirst() list.removeFirst()
+            队列
+                list.offer() 插入第一个 list.peek() 查看第一个 list.remove() 去除第一个
+
+HashSet(散列) TreeSet(红黑树) LinkedHashList(散列(查询速度) 链表(插入顺序))
+HashMap(散列) TreeMap(红黑树) LinkedHashMap (散列(查询速度) 链表(插入顺序))
+

@@ -1,5 +1,6 @@
-//: annotations/database/SQLInteger.java
-package annotations.database;
+package ThinkingInJava4th源码code.TIJ4code.annotations.database;//: annotations/database/SQLInteger.java
+import ThinkingInJava4th源码code.TIJ4code.annotations.database.Constraints;
+
 import java.lang.annotation.*;
 
 @Target(ElementType.FIELD)

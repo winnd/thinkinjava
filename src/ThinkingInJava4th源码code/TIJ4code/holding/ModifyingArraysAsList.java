@@ -1,4 +1,4 @@
-//: holding/ModifyingArraysAsList.java
+package ThinkingInJava4th源码code.TIJ4code.holding;//: holding/ModifyingArraysAsList.java
 import java.util.*;
 
 public class ModifyingArraysAsList {

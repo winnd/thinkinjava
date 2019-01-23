@@ -1,6 +1,5 @@
-//: annotations/ExtractInterface.java
+package ThinkingInJava4th源码code.TIJ4code.annotations;//: annotations/ExtractInterface.java
 // APT-based annotation processing.
-package annotations;
 import java.lang.annotation.*;
 
 @Target(ElementType.TYPE)

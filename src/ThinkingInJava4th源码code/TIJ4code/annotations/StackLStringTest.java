@@ -1,8 +1,8 @@
-//: annotations/StackLStringTest.java
+package ThinkingInJava4th源码code.TIJ4code.annotations;//: annotations/StackLStringTest.java
 // Applying @Unit to generics.
-package annotations;
-import net.mindview.atunit.*;
-import net.mindview.util.*;
+
+import ThinkingInJava4th源码code.TIJ4code.net.mindview.atunit.Test;
+import ThinkingInJava4th源码code.TIJ4code.net.mindview.util.OSExecute;
 
 public class StackLStringTest extends StackL<String> {
   @Test void _push() {
@@ -11,7 +11,8 @@ public class StackLStringTest extends StackL<String> {
     push("two");
     assert top().equals("two");
   }
-  @Test void _pop() {
+  @Test
+  void _pop() {
     push("one");
     push("two");
     assert pop().equals("two");

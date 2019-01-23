@@ -1,4 +1,4 @@
-//: annotations/SimulatingNull.java
+package ThinkingInJava4th源码code.TIJ4code.annotations;//: annotations/SimulatingNull.java
 import java.lang.annotation.*;
 
 @Target(ElementType.METHOD)

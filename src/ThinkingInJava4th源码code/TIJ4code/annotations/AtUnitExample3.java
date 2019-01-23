@@ -1,7 +1,9 @@
 //: annotations/AtUnitExample3.java
-package annotations;
-import net.mindview.atunit.*;
-import net.mindview.util.*;
+package ThinkingInJava4th源码code.TIJ4code.annotations;
+
+import ThinkingInJava4th源码code.TIJ4code.net.mindview.atunit.Test;
+import ThinkingInJava4th源码code.TIJ4code.net.mindview.atunit.TestObjectCreate;
+import ThinkingInJava4th源码code.TIJ4code.net.mindview.util.OSExecute;
 
 public class AtUnitExample3 {
   private int n;
@@ -14,10 +16,12 @@ public class AtUnitExample3 {
     System.out.println("This is methodTwo");
     return 2;
   }
-  @TestObjectCreate static AtUnitExample3 create() {
+  @TestObjectCreate
+  static AtUnitExample3 create() {
     return new AtUnitExample3(47);
   }
-  @Test boolean initialization() { return n == 47; }
+  @Test
+  boolean initialization() { return n == 47; }
   @Test boolean methodOneTest() {
     return methodOne().equals("This is methodOne");
   }

@@ -1,5 +1,7 @@
-//: holding/StackTest.java
-import net.mindview.util.*;
+package ThinkingInJava4th源码code.TIJ4code.holding;//: holding/StackTest.java
+
+
+import ThinkingInJava4th源码code.TIJ4code.net.mindview.util.Stack;
 
 public class StackTest {
   public static void main(String[] args) {

@@ -1,8 +1,9 @@
-//: annotations/AtUnitExample5.java
-package annotations;
+package ThinkingInJava4th源码code.TIJ4code.annotations;//: annotations/AtUnitExample5.java
+import ThinkingInJava4th源码code.TIJ4code.net.mindview.atunit.Test;
+import ThinkingInJava4th源码code.TIJ4code.net.mindview.atunit.TestObjectCreate;
+import ThinkingInJava4th源码code.TIJ4code.net.mindview.atunit.TestProperty;
+
 import java.io.*;
-import net.mindview.atunit.*;
-import net.mindview.util.*;
 
 public class AtUnitExample5 {
   private String text;
@@ -10,7 +11,8 @@ public class AtUnitExample5 {
   public String toString() { return text; }
   @TestProperty static PrintWriter output;
   @TestProperty static int counter;
-  @TestObjectCreate static AtUnitExample5 create() {
+  @TestObjectCreate
+  static AtUnitExample5 create() {
     String id = Integer.toString(counter++);
     try {
       output = new PrintWriter("Test" + id + ".txt");
@@ -19,12 +21,14 @@ public class AtUnitExample5 {
     }
     return new AtUnitExample5(id);
   }
-  @TestObjectCleanup static void
+  @net.mindview.atunit.TestObjectCleanup
+  static void
   cleanup(AtUnitExample5 tobj) {
     System.out.println("Running cleanup");
     output.close();
   }
-  @Test boolean test1() {
+  @Test
+  boolean test1() {
     output.print("test1");
     return true;
   }
@@ -37,8 +41,8 @@ public class AtUnitExample5 {
     return true;
   }
   public static void main(String[] args) throws Exception {
-    OSExecute.command(
-      "java net.mindview.atunit.AtUnit AtUnitExample5");
+    net.mindview.util.OSExecute.command(
+      "java AtUnit AtUnitExample5");
   }
 } /* Output:
 annotations.AtUnitExample5

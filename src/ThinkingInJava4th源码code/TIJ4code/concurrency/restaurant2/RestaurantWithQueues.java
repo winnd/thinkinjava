@@ -1,10 +1,7 @@
-//: concurrency/restaurant2/RestaurantWithQueues.java
+package ThinkingInJava4th源码code.TIJ4code.concurrency.restaurant2;//: concurrency/restaurant2/RestaurantWithQueues.java
 // {Args: 5}
-package concurrency.restaurant2;
-import enumerated.menu.*;
 import java.util.concurrent.*;
 import java.util.*;
-import static net.mindview.util.Print.*;
 
 // This is given to the waiter, who gives it to the chef:
 class Order { // (A data-transfer object)
@@ -56,7 +53,7 @@ class Customer implements Runnable {
     placeSetting.put(p);
   }
   public void run() {
-    for(Course course : Course.values()) {
+    for(enumerated.menu.Course course : enumerated.menu.Course.values()) {
       Food food = course.randomSelection();
       try {
         waitPerson.placeOrder(this, food);

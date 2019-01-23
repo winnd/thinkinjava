@@ -1,7 +1,6 @@
-//: annotations/AtUnitExample1.java
-package annotations;
-import net.mindview.atunit.*;
-import net.mindview.util.*;
+package ThinkingInJava4th源码code.TIJ4code.annotations;//: annotations/AtUnitExample1.java
+
+import ThinkingInJava4th源码code.TIJ4code.net.mindview.atunit.Test;
 
 public class AtUnitExample1 {
   public String methodOne() {
@@ -11,17 +10,22 @@ public class AtUnitExample1 {
     System.out.println("This is methodTwo");
     return 2;
   }
-  @Test boolean methodOneTest() {
+  @Test
+  boolean methodOneTest() {
     return methodOne().equals("This is methodOne");
   }
-  @Test boolean m2() { return methodTwo() == 2; }
-  @Test private boolean m3() { return true; }
+  @Test
+  boolean m2() { return methodTwo() == 2; }
+  @Test
+  private boolean m3() { return true; }
   // Shows output for failure:
-  @Test boolean failureTest() { return false; }
-  @Test boolean anotherDisappointment() { return false; }
+  @Test
+  boolean failureTest() { return false; }
+  @Test
+  boolean anotherDisappointment() { return false; }
   public static void main(String[] args) throws Exception {
-    OSExecute.command(
-      "java net.mindview.atunit.AtUnit AtUnitExample1");
+    net.mindview.util.OSExecute.command(
+      "java AtUnit AtUnitExample1");
   }
 } /* Output:
 annotations.AtUnitExample1

@@ -1,6 +1,7 @@
 package ThinkingInJava4th源码code.TIJ4code.initialization;//: initialization/OrderOfInitialization.java
 // Demonstrates initialization order.
-import static net.mindview.util.Print.*;
+
+import static ThinkingInJava4th源码code.TIJ4code.net.mindview.util.Print.print;
 
 // When the constructor is called to create a
 // Window object, you'll see a message:

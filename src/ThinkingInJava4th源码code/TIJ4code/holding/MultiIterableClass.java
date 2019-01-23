@@ -1,4 +1,4 @@
-//: holding/MultiIterableClass.java
+package ThinkingInJava4th源码code.TIJ4code.holding;//: holding/MultiIterableClass.java
 // Adding several Adapter Methods.
 import java.util.*;
 

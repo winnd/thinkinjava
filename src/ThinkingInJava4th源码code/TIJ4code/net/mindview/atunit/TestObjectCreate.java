@@ -1,6 +1,6 @@
 //: net/mindview/atunit/TestObjectCreate.java
 // The @Unit @TestObjectCreate tag.
-package net.mindview.atunit;
+package ThinkingInJava4th源码code.TIJ4code.net.mindview.atunit;
 import java.lang.annotation.*;
 
 @Target(ElementType.METHOD)

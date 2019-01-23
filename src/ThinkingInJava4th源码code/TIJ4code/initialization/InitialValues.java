@@ -1,6 +1,7 @@
-//: initialization/InitialValues.java
+package ThinkingInJava4th源码code.TIJ4code.initialization;//: initialization/InitialValues.java
 // Shows default initial values.
-import static net.mindview.util.Print.*;
+
+import static ThinkingInJava4th源码code.TIJ4code.net.mindview.util.Print.print;
 
 public class InitialValues {
   boolean t;

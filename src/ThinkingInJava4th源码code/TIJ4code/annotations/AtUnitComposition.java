@@ -1,24 +1,25 @@
-//: annotations/AtUnitComposition.java
+package ThinkingInJava4th源码code.TIJ4code.annotations;//: annotations/AtUnitComposition.java
 // Creating non-embedded tests.
-package annotations;
-import net.mindview.atunit.*;
-import net.mindview.util.*;
+
+import ThinkingInJava4th源码code.TIJ4code.net.mindview.atunit.Test;
 
 public class AtUnitComposition {
   AtUnitExample1 testObject = new AtUnitExample1();
-  @Test boolean _methodOne() {
+  @Test
+  boolean _methodOne() {
     return
       testObject.methodOne().equals("This is methodOne");
   }
-  @Test boolean _methodTwo() {
+  @Test
+  boolean _methodTwo() {
     return testObject.methodTwo() == 2;
   }
   public static void main(String[] args) throws Exception {
-    OSExecute.command(
-     "java net.mindview.atunit.AtUnit AtUnitComposition");
+    net.mindview.util.OSExecute.command(
+     "java AtUnit AtUnitComposition");
   }
 } /* Output:
-annotations.AtUnitComposition
+AtUnitComposition
   . _methodOne
   . _methodTwo This is methodTwo
 

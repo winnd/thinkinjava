@@ -1,8 +1,7 @@
-//: holding/QueueDemo.java
-// Upcasting to a Queue from a LinkedList.
+package ThinkingInJava4th源码code.TIJ4code.holding;//: holding/QueueDemo.java
 import java.util.*;
 
-public class QueueDemo {
+public class  QueueDemo {
   public static void printQ(Queue queue) {
     while(queue.peek() != null)
       System.out.print(queue.remove() + " ");

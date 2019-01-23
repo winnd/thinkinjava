@@ -1,6 +1,5 @@
-//: net/mindview/atunit/Test.java
+package ThinkingInJava4th源码code.TIJ4code.net.mindview.atunit;//: net/mindview/atunit/Test.java
 // The @Test tag.
-package net.mindview.atunit;
 import java.lang.annotation.*;
 
 @Target(ElementType.METHOD)

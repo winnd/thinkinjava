@@ -1,4 +1,4 @@
-//: holding/SetOfInteger.java
+package ThinkingInJava4th源码code.TIJ4code.holding;//: holding/SetOfInteger.java
 import java.util.*;
 
 public class SetOfInteger {

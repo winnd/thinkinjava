@@ -1,6 +1,6 @@
 //: annotations/StackL.java
 // A stack built on a linkedList.
-package annotations;
+package ThinkingInJava4th源码code.TIJ4code.annotations;
 import java.util.*;
 
 public class StackL<T> {

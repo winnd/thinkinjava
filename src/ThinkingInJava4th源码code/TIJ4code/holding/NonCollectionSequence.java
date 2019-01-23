@@ -1,6 +1,9 @@
-//: holding/NonCollectionSequence.java
-import typeinfo.pets.*;
-import java.util.*;
+package ThinkingInJava4th源码code.TIJ4code.holding;//: holding/NonCollectionSequence.java
+
+import ThinkingInJava4th源码code.TIJ4code.typeinfo.pets.Pet;
+import ThinkingInJava4th源码code.TIJ4code.typeinfo.pets.Pets;
+
+import java.util.Iterator;
 
 class PetSequence {
   protected Pet[] pets = Pets.createArray(8);

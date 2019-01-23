@@ -1,7 +1,7 @@
-//: annotations/database/TableCreator.java
+package ThinkingInJava4th源码code.TIJ4code.annotations.database;//: annotations/database/TableCreator.java
 // Reflection-based annotation processor.
-// {Args: annotations.database.Member}
-package annotations.database;
+// {Args: Member}
+
 import java.lang.annotation.*;
 import java.lang.reflect.*;
 import java.util.*;
@@ -74,19 +74,19 @@ public class TableCreator {
     return constraints;
   }
 } /* Output:
-Table Creation SQL for annotations.database.Member is :
+Table Creation SQL for Member is :
 CREATE TABLE MEMBER(
     FIRSTNAME VARCHAR(30));
-Table Creation SQL for annotations.database.Member is :
+Table Creation SQL for Member is :
 CREATE TABLE MEMBER(
     FIRSTNAME VARCHAR(30),
     LASTNAME VARCHAR(50));
-Table Creation SQL for annotations.database.Member is :
+Table Creation SQL for Member is :
 CREATE TABLE MEMBER(
     FIRSTNAME VARCHAR(30),
     LASTNAME VARCHAR(50),
     AGE INT);
-Table Creation SQL for annotations.database.Member is :
+Table Creation SQL for Member is :
 CREATE TABLE MEMBER(
     FIRSTNAME VARCHAR(30),
     LASTNAME VARCHAR(50),

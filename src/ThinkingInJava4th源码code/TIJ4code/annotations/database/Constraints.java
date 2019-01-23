@@ -1,5 +1,4 @@
-//: annotations/database/Constraints.java
-package annotations.database;
+package ThinkingInJava4th源码code.TIJ4code.annotations.database;//: annotations/database/Constraints.java
 import java.lang.annotation.*;
 
 @Target(ElementType.FIELD)

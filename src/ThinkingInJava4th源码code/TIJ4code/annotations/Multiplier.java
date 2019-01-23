@@ -1,6 +1,6 @@
 //: annotations/Multiplier.java
 // APT-based annotation processing.
-package annotations;
+package ThinkingInJava4th源码code.TIJ4code.annotations;
 
 @ExtractInterface("IMultiplier")
 public class Multiplier {

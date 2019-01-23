@@ -1,9 +1,9 @@
 package ThinkingInJava4th源码code.TIJ4code.typeinfo;//: typeinfo/InnerImplementation.java
 // Private inner classes can't hide from reflection.
-import ThinkingInJava4th源码code.TIJ4code.*;
 import ThinkingInJava4th源码code.TIJ4code.typeinfo.interfacea.A;
 
-import static net.mindview.util.Print.*;
+import static ThinkingInJava4th源码code.TIJ4code.net.mindview.util.Print.print;
+
 
 class InnerA {
   private static class C implements A {

@@ -1,5 +1,7 @@
-//: holding/ListIteration.java
-import typeinfo.pets.*;
+package ThinkingInJava4th源码code.TIJ4code.holding;//: holding/ListIteration.java
+import ThinkingInJava4th源码code.TIJ4code.typeinfo.pets.Pet;
+import ThinkingInJava4th源码code.TIJ4code.typeinfo.pets.Pets;
+
 import java.util.*;
 
 public class ListIteration {

@@ -1,7 +1,13 @@
-//: holding/LinkedListFeatures.java
-import typeinfo.pets.*;
-import java.util.*;
-import static net.mindview.util.Print.*;
+package ThinkingInJava4th源码code.TIJ4code.holding;//: holding/LinkedListFeatures.java
+
+import ThinkingInJava4th源码code.TIJ4code.typeinfo.pets.Hamster;
+import ThinkingInJava4th源码code.TIJ4code.typeinfo.pets.Pet;
+import ThinkingInJava4th源码code.TIJ4code.typeinfo.pets.Pets;
+import ThinkingInJava4th源码code.TIJ4code.typeinfo.pets.Rat;
+
+import java.util.LinkedList;
+
+import static ThinkingInJava4th源码code.TIJ4code.net.mindview.util.Print.print;
 
 public class LinkedListFeatures {
   public static void main(String[] args) {
@@ -13,6 +19,9 @@ public class LinkedListFeatures {
     print("pets.element(): " + pets.element());
     // Only differs in empty-list behavior:
     print("pets.peek(): " + pets.peek());
+    
+    
+    
     // Identical; remove and return the first element:
     print("pets.remove(): " + pets.remove());
     print("pets.removeFirst(): " + pets.removeFirst());

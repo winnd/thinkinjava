@@ -1,5 +1,7 @@
-//: holding/CrossContainerIteration.java
-import typeinfo.pets.*;
+package ThinkingInJava4th源码code.TIJ4code.holding;//: holding/CrossContainerIteration.java
+import ThinkingInJava4th源码code.TIJ4code.typeinfo.pets.Pet;
+import ThinkingInJava4th源码code.TIJ4code.typeinfo.pets.Pets;
+
 import java.util.*;
 
 public class CrossContainerIteration {

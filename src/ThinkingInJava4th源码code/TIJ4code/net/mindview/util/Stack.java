@@ -1,6 +1,5 @@
-//: net/mindview/util/Stack.java
+package ThinkingInJava4th源码code.TIJ4code.net.mindview.util;//: net/mindview/util/Stack.java
 // Making a stack from a LinkedList.
-package net.mindview.util;
 import java.util.LinkedList;
 
 public class Stack<T> {

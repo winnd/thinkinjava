@@ -3,6 +3,8 @@ package ThinkingInJava4th源码code.TIJ4code.typeinfo;//: typeinfo/Person.java
 
 import ThinkingInJava4th源码code.TIJ4code.net.mindview.util.Null;
 
+import java.io.File;
+
 class Person {
     public final String first;
     public final String last;

@@ -1,6 +1,6 @@
 //: net/mindview/util/PPrint.java
 // Pretty-printer for collections
-package net.mindview.util;
+package ThinkingInJava4th源码code.TIJ4code.net.mindview.util;
 import java.util.*;
 
 public class PPrint {

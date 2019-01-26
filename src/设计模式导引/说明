@@ -2,7 +2,8 @@ java编程思想
 
 注册工厂模式  - 14.4      注册工厂
 迭代器模式    - 11.6      迭代器
-
+策略设计模式  - 18.2      class ProcessFiles          可以简单封装也可以封装的很厉害 有些不到代码里看或者没有实例很难理解
+                        jdk中的filter
 
 
 
@@ -15,4 +16,12 @@ LinkedList 操作 LinkedListFeatures.java
 
 HashSet(散列) TreeSet(红黑树) LinkedHashList(散列(查询速度) 链表(插入顺序))
 HashMap(散列) TreeMap(红黑树) LinkedHashMap (散列(查询速度) 链表(插入顺序))
+
+
+InputStream     InputStream->Reader (使用InputStreamReader)
+Reader
+OutputStream    OutputStream->Writer (使用OutputStreamWriter)
+Writer
+
+RandomAccessFile
 

@@ -1,6 +1,9 @@
 package step1_完全解耦;
 
+import java.io.RandomAccessFile;
 import java.util.Arrays;
+import java.util.Random;
+import java.util.RandomAccess;
 
 /**
  * <p>Title:</p >

@@ -1,5 +1,6 @@
-//: strings/Immutable.java
-import static net.mindview.util.Print.*;
+package ThinkingInJava4th源码code.TIJ4code.strings;//: strings/Immutable.java
+
+import static ThinkingInJava4th源码code.TIJ4code.net.mindview.util.Print.print;
 
 public class Immutable {
   public static String upcase(String s) {

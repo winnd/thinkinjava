@@ -1,4 +1,4 @@
-//: strings/UsingStringBuilder.java
+package ThinkingInJava4th源码code.TIJ4code.strings;//: strings/UsingStringBuilder.java
 import java.util.*;
 
 public class UsingStringBuilder {

@@ -1,4 +1,4 @@
-//: strings/WhitherStringBuilder.java
+package ThinkingInJava4th源码code.TIJ4code.strings;//: strings/WhitherStringBuilder.java
 
 public class WhitherStringBuilder {
   public String implicit(String[] fields) {

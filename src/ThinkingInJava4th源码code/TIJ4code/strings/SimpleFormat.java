@@ -1,4 +1,4 @@
-//: strings/SimpleFormat.java
+package ThinkingInJava4th源码code.TIJ4code.strings;//: strings/SimpleFormat.java
 
 public class SimpleFormat {
   public static void main(String[] args) {

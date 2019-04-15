@@ -1,7 +1,8 @@
 //: innerclasses/Callbacks.java
 // Using inner classes for callbacks
-package innerclasses;
-import static net.mindview.util.Print.*;
+package ThinkingInJava4th源码code.TIJ4code.innerclasses;
+
+import static ThinkingInJava4th源码code.TIJ4code.net.mindview.util.Print.print;
 
 interface Incrementable {
   void increment();

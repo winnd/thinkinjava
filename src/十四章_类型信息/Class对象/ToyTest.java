@@ -25,7 +25,7 @@ public class ToyTest {
         Object obj = null;
 
         try {
-            object = up.newInstance(); // 获取一个虚拟实例 up是superClass 没办法直接new
+            object = up.newInstance(); // 获取一个虚拟实例 up是superClass 没办法直接new r:表示:"我不知道你的确切类型,但是无论如何你要正确的创建你自己"
         } catch (InstantiationException e) {
             System.out.println("cannot instantiate");
             System.exit(1);
